@@ -15,8 +15,8 @@ export const DittoComponent = (props: DittoComponentLibraryProps) => {
   );
 
   return (
-    <React.Fragment>
+    <>
       {typeof children === "function" ? children(text) : text}
-    </React.Fragment>
+    </>
   );
 };

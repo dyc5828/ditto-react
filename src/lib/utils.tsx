@@ -38,7 +38,7 @@ export const error = (message: string, returnValue: any = message) => {
 };
 
 export const nullError = (message: string) => error(message, null);
-export const fragmentError = (message: string) => error(message, <Fragment />);
+export const fragmentError = (message: string) => error(message, <></>);
 
 export const isProject = (
   props: DittoProps,
