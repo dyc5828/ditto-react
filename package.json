@@ -13,9 +13,7 @@
     "product",
     "react-app"
   ],
-  "main": "dist/index.js",
-  "module": "dist/index.modern.js",
-  "source": "src/index.tsx",
+  "main": "src/index.js",
   "engines": {
     "node": ">=10"
   },
